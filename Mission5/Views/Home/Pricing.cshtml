@@ -3,4 +3,25 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<br />
+
+<script src="calculator.js"></script>
+<div class="container">
+    <br />
+    <h2>Hourly Rate Calculator</h2>
+    <label for="hours">Enter Number of Hours:</label>
+    <br />
+    <input type="number" id="hours" min="0" step="1">
+    <br /><br />
+    <label for="rate">Hourly Rate:</label>
+    <br />
+    <input type="text" id="rate" value="$35" readonly>
+    <br /><br />
+    <button id="calculate">Calculate Total</button>
+    <br /><br />
+    <label for="total">Total:</label>
+    <br />
+    <input type="text" id="total" readonly>
+    <br /></br />
+    <p>Thanks for visiting and happy surfing!</p>
+</div>
